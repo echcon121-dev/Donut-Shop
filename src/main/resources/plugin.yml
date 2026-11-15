@@ -1,0 +1,28 @@
+name: DonutShop
+version: '1.0.0'
+main: net.dennislist.donutshop.DonutShop
+api-version: '1.21'
+author: DennisList
+description: GUI shop kieu "donut" cho server Crystal SMP - mua ban item bang chest menu
+depend: [Vault]
+
+commands:
+  shop:
+    description: Mo giao dien shop
+    usage: /shop
+    aliases: [cshop, donutshop]
+  sell:
+    description: Ban item dang cam hoac ca tui do
+    usage: /sell <hand|all>
+  shopadmin:
+    description: Lenh quan tri shop
+    usage: /shopadmin <reload>
+    permission: donutshop.admin
+
+permissions:
+  donutshop.use:
+    description: Duoc phep mo shop va mua ban
+    default: true
+  donutshop.admin:
+    description: Duoc phep reload config shop
+    default: op

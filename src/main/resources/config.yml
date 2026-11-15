@@ -1,0 +1,180 @@
+# ========================================================
+#  DonutShop - config.yml
+#  Dat buy: -1 hoac sell: -1 neu item khong duoc mua/ban
+#  Dung ma mau & (vd &a, &6, &l) trong display-name va lore
+# ========================================================
+
+settings:
+  main-menu-title: "&8&l» &6&lDONUT SHOP &8&l«"
+  main-menu-rows: 3
+  currency-symbol: "$"
+  # So decimal hien thi gia tien
+  price-decimals: 1
+  # Co xac nhan lai khi ban "/sell all" khong
+  confirm-sell-all: false
+
+categories:
+  blocks:
+    display-name: "&f&lKhoi & Xay Dung"
+    icon: GRASS_BLOCK
+    slot: 10
+    items:
+      - material: STONE
+        buy: 2.0
+        sell: 1.0
+      - material: COBBLESTONE
+        buy: 1.5
+        sell: 0.7
+      - material: DIRT
+        buy: 1.0
+        sell: 0.3
+      - material: OAK_LOG
+        buy: 6.0
+        sell: 3.0
+      - material: GLASS
+        buy: 3.0
+        sell: 1.0
+      - material: SAND
+        buy: 2.0
+        sell: 0.8
+      - material: OBSIDIAN
+        buy: 40.0
+        sell: 20.0
+
+  ores:
+    display-name: "&6&lQuang & Khoang San"
+    icon: DIAMOND_ORE
+    slot: 11
+    items:
+      - material: COAL
+        buy: 4.0
+        sell: 2.0
+      - material: IRON_INGOT
+        buy: 15.0
+        sell: 8.0
+      - material: GOLD_INGOT
+        buy: 20.0
+        sell: 10.0
+      - material: REDSTONE
+        buy: 5.0
+        sell: 2.0
+      - material: LAPIS_LAZULI
+        buy: 6.0
+        sell: 3.0
+      - material: DIAMOND
+        buy: 450.0
+        sell: 300.0
+      - material: EMERALD
+        buy: 500.0
+        sell: 350.0
+      - material: NETHERITE_INGOT
+        buy: 9000.0
+        sell: 6500.0
+      - material: ANCIENT_DEBRIS
+        buy: -1
+        sell: 2800.0
+
+  combat:
+    display-name: "&c&lChien Dau"
+    icon: DIAMOND_SWORD
+    slot: 12
+    items:
+      - material: ARROW
+        buy: 3.0
+        sell: 1.0
+      - material: ENDER_PEARL
+        buy: 180.0
+        sell: 90.0
+      - material: TOTEM_OF_UNDYING
+        buy: 15000.0
+        sell: 11000.0
+      - material: SHIELD
+        buy: 90.0
+        sell: -1
+      - material: TNT
+        buy: 60.0
+        sell: 25.0
+
+  food:
+    display-name: "&a&lDo An"
+    icon: COOKED_BEEF
+    slot: 13
+    items:
+      - material: BREAD
+        buy: 5.0
+        sell: 2.0
+      - material: COOKED_BEEF
+        buy: 8.0
+        sell: 3.0
+      - material: COOKED_PORKCHOP
+        buy: 8.0
+        sell: 3.0
+      - material: GOLDEN_CARROT
+        buy: 25.0
+        sell: 12.0
+      - material: GOLDEN_APPLE
+        buy: 600.0
+        sell: 400.0
+      - material: ENCHANTED_GOLDEN_APPLE
+        buy: 20000.0
+        sell: -1
+
+  farming:
+    display-name: "&2&lNong Trai"
+    icon: WHEAT
+    slot: 14
+    items:
+      - material: WHEAT
+        buy: -1
+        sell: 1.5
+      - material: CARROT
+        buy: -1
+        sell: 1.2
+      - material: POTATO
+        buy: -1
+        sell: 1.2
+      - material: SUGAR_CANE
+        buy: -1
+        sell: 1.0
+      - material: MELON_SLICE
+        buy: -1
+        sell: 1.0
+      - material: PUMPKIN
+        buy: -1
+        sell: 2.0
+
+  potions:
+    display-name: "&d&lDuoc Pham"
+    icon: BREWING_STAND
+    slot: 15
+    items:
+      - material: GLASS_BOTTLE
+        buy: 2.0
+        sell: 1.0
+      - material: NETHER_WART
+        buy: 10.0
+        sell: 4.0
+      - material: GLOWSTONE_DUST
+        buy: 15.0
+        sell: 7.0
+      - material: SPIDER_EYE
+        buy: 8.0
+        sell: 3.0
+
+  misc:
+    display-name: "&b&lLinh Tinh"
+    icon: CHEST
+    slot: 16
+    items:
+      - material: EXPERIENCE_BOTTLE
+        buy: 50.0
+        sell: 25.0
+      - material: BOOK
+        buy: 10.0
+        sell: 4.0
+      - material: FIREWORK_ROCKET
+        buy: 20.0
+        sell: 8.0
+      - material: SLIME_BALL
+        buy: 12.0
+        sell: 5.0
